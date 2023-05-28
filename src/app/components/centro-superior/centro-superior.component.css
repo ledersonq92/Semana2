@@ -1,0 +1,15 @@
+@import '/docs/styles/shared.scss';
+
+.experiencia{
+    display: grid;
+    grid-template-rows: repeat(3 , auto);
+    grid-template-columns: 0.5fr 1fr;
+    align-items: center;
+    & div p {
+        font-weight: bold;
+        & span{
+            display: block;
+            color: #0e43f0;
+        }
+    }
+}
